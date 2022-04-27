@@ -28,6 +28,9 @@ In this section, we will take a look at taints and tolerations.
   - **`PreferNoSchedule`**
   - **`NoExecute`**
   
+## Delete taints from node
+   kubectl taint nodes node1 key1=value1:NoSchedule-
+   
   ![tn](../../images/tn.PNG)
   
 ## Tolerations
